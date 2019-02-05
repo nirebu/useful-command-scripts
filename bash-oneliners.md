@@ -1,5 +1,7 @@
-# JSON
+# Bash one liners
 
-Not-so-pretty print jq compact output
+- Not-so-pretty print jq compact output
 
-cat foo.json | jq --compact-output | sed 's/{/{ /; s/}/ },/ ; s/:/ : / ; s/,/ , /; $ s/.$//'
+  ```bash
+  cat foo.json | jq --compact-output | sed 's/{/{ /; s/}/ },/ ; s/:/ : / ; s/,/ , /; $ s/.$//'
+  ```
