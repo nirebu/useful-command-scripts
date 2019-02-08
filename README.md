@@ -1,4 +1,4 @@
-# nirebu useful commands and scripts
+# Useful commands and scripts
 
 This is a list of useful commands I find myself using in my day to day work on sysadmin and development activities.
 
